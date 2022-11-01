@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 20;
+    font-family: 'Inter';
+}
+body {
+    width: 100%;
+}
+.body {
+    width: 80%;
+    padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: groove;
+    border-radius: 15px;
+    text-align: center;
+}
+input[type=submit] {
+    color: #fff;
+    background-color: #000fff;
+    border-width:0px ;
+}
+input[type=submit]:hover
+{
+    background-color:#005fff;
+}
+input[type=submit]:active
+{
+    background-color:#005eff60;
+}
+input[type=submit]#bigBotton {
+    border-radius: 50px;
+    width: 30%;
+    height: 96px;
+    font-size: 36px;
+    text-align: center;
+}
+
+input[type=submit]#smallBotton {
+    border-radius: 15px;
+    width: 15%;
+    height: 57px;
+}
+h1 {
+    margin-top: 103px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #000;
+}
+h2 {
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 54px;
+    font-size: 36px;
+    color: #000;
+}
+input[type=text]{
+    text-align: left;
+    margin-top: 74px;
+    border-radius: 40px;
+    border-color: #000fff;
+    border-width: 5px;
+    border-style: solid;
+    width: 67%!important;
+    height: 137px;
+    margin-right: 60%;
+    padding: 6px 20px 6px 20px;
+}
+
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.forget {
+    width: 75%;
+    height: 31px;
+    text-align: right;
+    margin-right: 25%;
+}
+.forget a {
+    color:red;
+}
+.forget a:hover {
+    color:rgba(255, 0, 0, 0.500);
+}
+.forget a:active {
+    color:rgba(150, 0, 0, 0.500);
+}
+.create {
+    height: 50px;
+    margin: 39px 0px 89px 0px;
+}
+.create a:hover {
+    color:rgba(0, 0, 255, 0.500);
+
+}
+.create a:active {
+    color:rgba(0, 0, 150, 0.500);
+}
+.row {
+    display: flex;
+}
+.colL {
+    width: 25%;
+}
+.colR {
+    width: 75%;
+}
+.none {
+    display: none;
+    border: none;
+}
